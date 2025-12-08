@@ -1,0 +1,207 @@
+@charset "UTF-8";/* login.css */
+
+/* Garante que html/body não tenham margem e ocupem a tela toda */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Só a página de login usa essa classe */
+body.login-page {
+    background: #f1f1f1;
+}
+
+/* Wrapper que CENTRALIZA o card na tela toda */
+.login-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Card do login */
+.cardLogin {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px 30px;
+    width: 90%;           /* responsivo */
+    max-width: 360px;     /* limite de largura */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    box-sizing: border-box;
+}
+
+/* Linhas do form dentro do card */
+.cardLogin .form-row {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs */
+.cardLogin .input-text {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão */
+.cardLogin .form-actions {
+    margin-top: 10px;
+}
+
+.cardLogin .form-actions .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cardLogin .form-actions .btn-primary {
+    background: #007bff;
+    color: #fff;
+}
+/* login.css */
+
+/* Garante que html/body não tenham margem e ocupem a tela toda */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Só a página de login usa essa classe */
+body.login-page {
+    background: #f1f1f1;
+}
+
+/* Wrapper que CENTRALIZA o card na tela toda */
+.login-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Card do login */
+.cardLogin {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px 30px;
+    width: 90%;           /* responsivo */
+    max-width: 360px;     /* limite de largura */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    box-sizing: border-box;
+}
+
+/* Linhas do form dentro do card */
+.cardLogin .form-row {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs */
+.cardLogin .input-text {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão */
+.cardLogin .form-actions {
+    margin-top: 10px;
+}
+
+.cardLogin .form-actions .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cardLogin .form-actions .btn-primary {
+    background: #007bff;
+    color: #fff;
+}
+/* login.css */
+
+/* Garante que html/body não tenham margem e ocupem a tela toda */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Só a página de login usa essa classe */
+body.login-page {
+    background: #f1f1f1;
+}
+
+/* Wrapper que CENTRALIZA o card na tela toda */
+.login-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Card do login */
+.cardLogin {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px 30px;
+    width: 90%;           /* responsivo */
+    max-width: 360px;     /* limite de largura */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    box-sizing: border-box;
+}
+
+/* Linhas do form dentro do card */
+.cardLogin .form-row {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs */
+.cardLogin .input-text {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão */
+.cardLogin .form-actions {
+    margin-top: 10px;
+}
+
+.cardLogin .form-actions .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cardLogin .form-actions .btn-primary {
+    background: #007bff;
+    color: #fff;
+}
